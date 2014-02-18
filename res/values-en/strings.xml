@@ -6,10 +6,21 @@
     <string name="Info">Made by TaboIT</string>
     <string name="Start">Start</string>
     <string name="Stop">Stop</string>
-    <string name="Game_Already_On">Game is going on right now!</string>
-    <string name="Game_Start_Now">The Game will begin! Random number has been choosed by computer</string>
-    <string name="Game_stopping">Stopping the game!</string>
-    <string name="Game_Already_Stopped">Game is not going on right now!</string>
-    <string name="Start_Game_First">Before you type in, please start the game first!</string>
+    <string name="Game_Already_On">Game is ongoing!</string>
+    <string name="Game_Start_Now">Starting the game! The random number has been choosed! ENJOY!</string>
+    <string name="Game_stopping">Let me stop the game</string>
+    <string name="Game_Already_Stopped">Game is not going on!</string>
+    <string name="Start_Game_First">Start the game first please!</string>
+    <string name="Win">You got it right! Congratulation!!</string>
+    <string name="Attempt">Your Attempt : </string>
+    <string name="Bigger">Bigger</string>
+    <string name="Smaller">Smaller</string>
+    <string name="MuchMoreBigger">Much More Bigger</string>
+    <string name="MoreBigger">MoreBigger</string>
+    <string name="CloseBigger">Close but Bigger</string>
+    <string name="MuchMoreSmaller">Much More Smaller</string>
+    <string name="MoreSmaller">More Smaller</string>
+    <string name="CloseSmaller">Close but Smaller</string>
+    <string name="JustNear">It\'s just Near</string>
 
 </resources>

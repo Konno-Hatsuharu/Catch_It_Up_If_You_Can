@@ -3,13 +3,24 @@
 
     <string name="app_name">맞춰보던지~</string>
     <string name="action_settings">설정</string>
-    <string name="Info">만든이 : TaboIT</string>
+    <string name="Info">홈페이지 Taboit.com. 모든 소스를 공개하겠습니다!</string>
     <string name="Start">시작</string>
     <string name="Stop">중지</string>
-    <string name="Game_Already_On">게임이 이미 진행중에 있습니다!</string>
-    <string name="Game_Start_Now">게임을 시작합니다! 무작위로 한 숫자가 정해졌습니다.</string>
-    <string name="Game_stopping">게임을 중지합니다.</string>
-    <string name="Game_Already_Stopped">게임이 실행되고있지 않습니다.</string>
-    <string name="Start_Game_First">게임을 먼저 실행시켜주세요!!</string>
+    <string name="Game_Already_On">게임이 이미 실행중입니다!</string>
+    <string name="Game_Start_Now">게임을 시작합니다! 랜덤 숫자가 정해졌습니다! ENJOY!</string>
+    <string name="Game_stopping">게임을 멈추는 중입니다!</string>
+    <string name="Game_Already_Stopped">게임이 실행중이 아닙니다.</string>
+    <string name="Start_Game_First">게임을 먼저 실행시켜주세요!</string>
+    <string name="Win">정확하게 맞췄습니다! 축하합니다.</string>
+    <string name="Attempt">시도횟수 : </string>
+    <string name="Bigger">더 큽니다.</string>
+    <string name="Smaller">더 작습니다.</string>
+    <string name="MuchMoreBigger">매우 더 큽니다.</string>
+    <string name="MoreBigger">아주 더 큽니다</string>
+    <string name="CloseBigger">가깝지만 더 큽니다.</string>
+    <string name="MuchMoreSmaller">매우 더 작습니다.</string>
+    <string name="MoreSmaller">아주 작습니다.</string>
+    <string name="CloseSmaller">가깝지만 더 작습니다.</string>
+    <string name="JustNear">바로 근처입니다.</string>
 
 </resources>

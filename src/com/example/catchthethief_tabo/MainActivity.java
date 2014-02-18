@@ -9,6 +9,7 @@ public class MainActivity extends Activity {
 	int num;
 	View v;
 	boolean gameon = false;
+	int attempt;
    
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,12 +31,35 @@ public class MainActivity extends Activity {
     	if(i == 2){
     		y = bt;
     		i = 0;
-    		
     	}
     	result = x*10+y;
-    	Toast.makeText(MainActivity.this, ""+result, Toast.LENGTH_SHORT).show();
-    	
+    	Toast.makeText(MainActivity.this, ""+result, Toast.LENGTH_SHORT).show(); //Testing
+    	attempt ++;
+    	GatherNumber(result);
     	}
+    }
+    
+    public void GatherNumber(int result){
+    	if(result == num){
+    		Toast.makeText(MainActivity.this, getResources().getString(R.string.Win), Toast.LENGTH_LONG).show();
+    		Toast.makeText(MainActivity.this, getResources().getString(R.string.Attempt)+attempt, Toast.LENGTH_LONG).show();
+    		gameon = false;
+    	}
+    	else if(result < num){
+    		//if((num-90))
+    		Toast.makeText(MainActivity.this, getResources().getString(R.string.Bigger), Toast.LENGTH_LONG).show();
+    	}
+    	else if(result > num){
+    		/*
+    		if((result-num <=99) && (result-num > 50)) Toast.makeText(MainActivity.this, "MUCH more Smaller", Toast.LENGTH_LONG).show();
+    		else if((result-num <=50) && (result-num > 25)) Toast.makeText(MainActivity.this, "More Smaller", Toast.LENGTH_LONG).show();
+    		else if((result-num <=25) && (result-num > 10)) Toast.makeText(MainActivity.this, "Smaller", Toast.LENGTH_LONG).show();
+    		else if((result-num <=10) && (result-num > 5)) Toast.makeText(MainActivity.this, "Close", Toast.LENGTH_LONG).show();
+    		else if((result-num <=5) && (result-num >= 1)) Toast.makeText(MainActivity.this, "Its just near it", Toast.LENGTH_LONG).show();
+    		*/
+    		Toast.makeText(MainActivity.this, getResources().getString(R.string.Smaller), Toast.LENGTH_LONG).show();
+        }
+    	
     }
     
     public void ClickMethod(View v){
@@ -76,9 +100,10 @@ public class MainActivity extends Activity {
         	}
     		else if(gameon == false){
         		
-        		num = ((int) Math.random()*101);
+    			num = (int)(Math.random()*101);
         		Toast.makeText(MainActivity.this, getResources().getString(R.string.Game_Start_Now), Toast.LENGTH_SHORT).show();
         		gameon = true;
+        		attempt = 0;
         	}
         	break;
     	case R.id.button12:
