@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">맞춰보던지~</string>
+    <string name="action_settings">설정</string>
+    <string name="Info">만든이 : TaboIT</string>
+    <string name="Start">시작</string>
+    <string name="Stop">중지</string>
+    <string name="Game_Already_On">게임이 이미 진행중에 있습니다!</string>
+    <string name="Game_Start_Now">게임을 시작합니다! 무작위로 한 숫자가 정해졌습니다.</string>
+    <string name="Game_stopping">게임을 중지합니다.</string>
+    <string name="Game_Already_Stopped">게임이 실행되고있지 않습니다.</string>
+    <string name="Start_Game_First">게임을 먼저 실행시켜주세요!!</string>
+
+</resources>
